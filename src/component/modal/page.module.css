@@ -1,0 +1,64 @@
+.container{
+    padding-top: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 40, 40, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: rgb(255, 255, 255) ;
+    padding: 0 20px;
+}
+
+.btnsub{
+    width: 60px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: ease-in-out 0.1s;
+    font-weight: bold;
+    background-color: #7ea3f3;
+    color: rgb(255, 254, 254);
+}
+.btnstop{
+    width: 60px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: ease-in-out 0.1s;
+    font-weight: bold;
+    background-color: #b4b9c2;
+    color: rgb(255, 254, 254);
+}
+.btndel{
+    width: 60px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: ease-in-out 0.1s;
+    font-weight: bold;
+    background-color: #e94b4b;
+    color: rgb(255, 254, 254);
+}
